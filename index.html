@@ -43,7 +43,14 @@
     gtag('js', new Date());
 
     gtag('config', 'G-5KM49PVKPB');
+    gtag('config', 'AW-10868662883');
   </script>
+
+  <!-- Event snippet for Entered our Site conversion page -->
+  <script> gtag('event', 'conversion', { 'send_to': 'AW-10868662883/vKI2COmO_agDEOPEyr4o' }); </script>
+
+  <!-- Event snippet for Clicked the &quot;Buy Now&quot; Button conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+  <script> function gtag_report_conversion(url) { var callback = function () { if (typeof (url) != 'undefined') { window.location = url; } }; gtag('event', 'conversion', { 'send_to': 'AW-10868662883/_PAbCOLRtqkDEOPEyr4o', 'event_callback': callback }); return false; } </script>
 
   <!-- ===============================================-->
   <!--    Stylesheets-->
@@ -59,8 +66,7 @@
   <!--    Main Content-->
   <!-- ===============================================-->
   <main class="main" id="top">
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-4 d-block"
-      data-navbar-on-scroll="data-navbar-on-scroll">
+    <nav class="navbar navbar-color navbar-expand-lg navbar-dark fixed-top py-4 d-block">
       <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/gallery/logo.png"
             height="48" alt="..." /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -74,51 +80,59 @@
             <li class="nav-item px-2" data-anchor="data-anchor"><a class="nav-link" href="#products">Products</a></li>
             <li class="nav-item px-2" data-anchor="data-anchor"><a class="nav-link" href="#howto">How to</a></li>
             <li class="nav-item px-2" data-anchor="data-anchor"><a class="nav-link" href="#faq">FAQs</a></li>
+            <li class="nav-item px-2" data-anchor="data-anchor"><a class="nav-link" href="#info">Contact Us</a></li>
+
           </ul>
-          <form class="ps-lg-5" data-anchor="data-anchor"><a class="btn btn-primary order-1 order-lg-0"
-              href="#info">CONTACT US</a></form>
+          <form class="ps-lg-5" data-anchor="data-anchor"
+            onclick="location.href='buy.html'; return gtag_report_conversion('https://www.vite.st/buy')"><a
+              class="btn btn-primary order-1 order-lg-0 border-3 border" href="location.href='buy.html'">Buy
+              Now</a></form>
         </div>
       </div>
     </nav>
     <section id="home">
-      <div class="bg-holder"
-        style="background-image:url(assets/img/gallery/header-bg.png);background-position:center;background-size:cover;">
+      <!-- <div class="bg-holder container-color"
+        style="background-image:url(assets/img/gallery/header-bg____.png);background-position:center;background-size:cover;">
       </div>
+    -->
       <!--/.bg-holder-->
 
-      <div class="container">
-        <div class="row align-items-center min-vh-50 min-vh-sm-100">
-          <div class="col-md-7 col-lg-6 text-md-start text-center">
-            <h1 class="text-light fs-6 fs-xl-8 font-cursive fw-normal mb-5">COVID-19 test <br /> Quick, Easy <br />
-              <li class="btn btn-primary" data-anchor="data-anchor"><a class="nav-link" href="#aboutUs">LEARN MORE</a></li>
+      <div class="container mb-5 mt-5">
+        <div class="row align-items-center min-vh-50 min-vh-sm-75">
+          <div class="col col-md-5 text-md-start text-center">
+            <h1 class="text-danger fs-6 fs-xl-6 fw-normal mb-5">COVID-19 test for Small Businesses
+              <br />
+              <h2 class="text-dark fs-6 fs-xl-2 fw-normal mb-2">Reusable COVID Tests</h2>
+              <h2 class="text-dark fs-6 fs-xl-2 fw-normal mb-2">Get your starter kit with 5 reusable handles and 20
+                test pods for $199.99</h2>
+              <br />
+              <button class="btn btn-primary" data-anchor="data-anchor"
+                onclick="location.href='buy.html'; return gtag_report_conversion('https://www.vite.st/buy')">BUY
+                NOW
+              </button>
             </h1>
+          </div>
+          <div class="col col-md-7">
+            <img class="w-100" src="assets/img/gallery/vitestv2_white.jpg" alt="..." />
           </div>
         </div>
       </div>
+      <hr class="container-color-danger container-vh-sm" />
     </section>
-
 
     <!-- ============================================-->
     <!-- <section> begin ============================-->
-    <section id="aboutUs">
+    <section id="products">
 
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-md-6 text-center mb-6 mb-md-0 order-0 order-md-1"><img class="w-100"
-              src="assets/img/gallery/about-us.png" alt="..." /></div>
-          <div class="col-md-6 text-center text-md-start mb-6">
-            <h4 class="text-danger">ABOUT US</h4>
-            <p class="my-5 fs-1 pe-xl-8">We are a team of scientists composed of biologists, physicists and engineers
-              working together to end the CoVID-19 pandemic. We have built an affordable, easy to use and fast device
-              capable of detecting the presence of COVID-19 virus in breath. </p>
-            <div class="card card-span bg-soft-primary border-start border-primary border-5 mt-3">
-              <div class="card-body">
-                <h4 class="lh-base px-lg-5 py-3">
-                  Our device detects the virus from an early stage, so we can effectively prevent the
-                  spread of COVID-19.
-                </h4>
-              </div>
-            </div>
+          <div class="col-md-6 text-center mb-6 mb-md-0"><img class="w-100"
+              src="assets/img/gallery/comparative_table.png" alt="..." /></div>
+          <div class="col-md-6 text-center text-md-start mb-6 px-4">
+            <h4 class="text-danger text-uppercase">What is Vite.st?</h4>
+            <p class="my-5 fs-1 pe-xl-7">Vite.st is an easy, fast, and reliable COVID-19 test.
+              Protect yourself and others without unnecessary lines, pain and wait. With Vite.st, you can save lifes and
+              help to stop the spread of COVID-19 at an affordable price.</p>
           </div>
         </div>
       </div>
@@ -127,30 +141,6 @@
     </section>
     <!-- <section> close ============================-->
     <!-- ============================================-->
-
-
-
-    <!-- ============================================-->
-    <!-- <section> begin ============================-->
-      <section id="products">
-
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-md-6 text-center mb-6 mb-md-0"><img class="w-100" src="assets/img/gallery/comparative_table.png"
-                alt="..." /></div>
-            <div class="col-md-6 text-center text-md-start mb-6 px-4">
-              <h4 class="text-danger text-uppercase">What is Vite.st?</h4>
-              <p class="my-5 fs-1 pe-xl-7">Vite.st is an easy, fast, and reliable COVID-19 test.
-                Protect yourself and others without unnecessary lines, pain and wait. With Vite.st, you can save lifes and
-                help to stop the spread of COVID-19 at an affordable price.</p>
-            </div>
-          </div>
-        </div>
-        <!-- end of .container-->
-  
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
 
 
 
@@ -184,7 +174,7 @@
       </div>
       <!--/.bg-holder-->
 
-      <div class="container">
+      <div class="container mb-7">
         <div class="row flex-center">
           <div class="col-md-6">
             <h4 class="text-danger text-uppercase">faq</h4>
@@ -350,9 +340,6 @@
     </section>
 
 
-
-
-
     <section id="info">
       <div class="bg-holder"
         style="background-image:url(assets/img/gallery/footer-bg.png);background-position:left;background-size:contain;padding:5px 3px;">
@@ -400,6 +387,36 @@
         </div>
       </div>
     </section>
+
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section id="aboutUs">
+
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center mb-6 mb-md-0 order-0 order-md-1"><img class="w-100"
+              src="assets/img/gallery/about-us.png" alt="..." /></div>
+          <div class="col-md-6 text-center text-md-start mb-6">
+            <h4 class="text-danger">ABOUT US</h4>
+            <p class="my-5 fs-1 pe-xl-8">We are a team of scientists composed of biologists, physicists and engineers
+              working together to end the CoVID-19 pandemic. We have built an affordable, easy to use and fast device
+              capable of detecting the presence of COVID-19 virus in breath. </p>
+            <div class="card card-span bg-soft-primary border-start border-primary border-5 mt-3">
+              <div class="card-body">
+                <h4 class="lh-base px-lg-5 py-3">
+                  Our device detects the virus from an early stage, so we can effectively prevent the
+                  spread of COVID-19.
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of .container-->
+
+    </section>
+    <!-- <section> close ============================-->
+    <!-- ============================================-->
 
 
     <!-- ============================================-->

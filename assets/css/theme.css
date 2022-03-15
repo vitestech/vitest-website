@@ -4799,6 +4799,10 @@ fieldset:disabled .btn {
   white-space: nowrap;
 }
 
+.navbar-color {
+  background-color: #EE4D47;
+}
+
 @media (min-width: 1200px) {
   .navbar-brand {
     font-size: 1.728rem;
@@ -17479,8 +17483,8 @@ section {
 
 @media (min-width: 992px) {
   section {
-    padding-top: 7.5rem;
-    padding-bottom: 7.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }
 
@@ -17704,6 +17708,18 @@ ul {
 .container-xl,
 .container-xxl {
   position: relative;
+}
+
+.container-color-light {
+  background-color: #fff;
+}
+
+.container-color-danger {
+  background-color: #EE4D47;
+}
+
+hr:not([size]){ 
+  height: 4rem;
 }
 
 .all-0 {
